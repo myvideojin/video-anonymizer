@@ -1,0 +1,27 @@
+{
+  "name": "video-anonymizer",
+  "version": "1.0.0",
+  "description": "Wipe device and camera EXIF metadata and pitch-shift voices to protect video identity.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "lucide-react": "^0.284.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@ffmpeg/ffmpeg": "^0.12.15",
+    "@ffmpeg/util": "^0.12.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.3",
+    "vite": "^4.4.5"
+  }
+}
